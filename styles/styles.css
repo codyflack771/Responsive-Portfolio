@@ -1,0 +1,377 @@
+/**********
+	Links
+**********/
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #000;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+body {
+	background-color: #f8f8f8;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/**********
+	Header
+**********/
+.header h1 {
+	text-align: center;
+	margin: 20px;
+	padding: 0;
+	letter-spacing: 1px;
+	font-size: 2rem;
+}
+
+.header ul {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 90%;
+}
+
+.header li {
+	background-color: #fff;
+	padding: 10px;
+	margin: 5px 0;
+}
+
+.header a {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+/**********
+	Intro
+**********/
+.intro {
+	margin: 35px auto 0;
+}
+
+.intro img {
+	display: block;
+	width: 75%;
+	margin: auto;
+}
+
+.intro p {
+	width: 90%;
+	margin: auto;
+	padding: 30px 0 30px 0;
+	line-height: 1.25em;
+	font-size: 1.1rem;
+}
+
+/**********
+	Main Content
+**********/
+.portfolio h2 {
+	text-align: center;
+	padding: 35px;
+	margin: 0;
+	font-size: 1.35rem;
+}
+
+.container {
+	background-color: #fff;
+}
+
+.mainContent img {
+	max-width: 85%;
+	margin: auto;
+	display: block;
+}
+
+.mainContent h3 {
+	text-align: center;
+	padding: 10px;
+	font-size: 1.25rem;
+}
+
+.mainContent p {
+	width: 80%;
+	margin: auto;
+	padding: 0 0 35px 0;
+	font-size: 1.1rem;
+}
+
+/**********
+	Footer
+**********/	
+.contact h3 {
+	padding: 25px;
+	text-align: center;
+	font-size: 1.25rem;
+}
+
+.contact p {
+	display: block;
+	width: 90%;
+	margin: auto;
+	padding: 0 0 35px 0;
+	font-size: 1.15rem;
+}
+
+.contact ul {
+	list-style-type: none;
+	padding: 0 0 35px 0;
+	margin: auto;
+	width: 90%;
+}
+
+.contact li {
+	padding: 10px 0;
+	font-size: 1.15rem;
+}
+
+.footer {
+	width: 90%;
+	height: 50px;
+	margin: auto;
+	border-top: 1px solid #000;
+}
+
+.footer h3 {
+	float: left;
+	padding: 10px;
+	margin: 0;
+	font-weight: normal;
+	font-size: 1.2rem;
+}
+
+.footer a {
+	float: right;
+	padding: 10px;
+	margin: 0;
+	font-size: 1.1rem;
+}
+
+#phone {
+	font-weight: 600;
+}
+
+#email {
+	font-weight: 600;
+}
+
+
+
+/**********
+	Media Query's
+**********/
+
+/**********
+	Tablet
+**********/
+@media (min-width: 321px) {
+	/*Header*/
+	.header h1 {
+		text-align: center;
+		margin: 15px;
+		padding: 0;
+	}
+
+	.header ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+		position: relative;
+	}
+
+	.header li {
+		background-color: #f8f8f8;
+		padding: 15px;
+		margin: 0px;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.header a {
+		display: inline;
+		width: 100%;
+		text-align: center;
+	}
+
+	/**********
+		Intro
+	**********/
+	.intro {
+		margin: 35px 0 0 0;
+		height: 300px;
+		clear: both;
+	}
+
+	.intro img {
+		display: inline-block;
+		max-width: 400px;
+		width: 40%;
+		margin: 0 7.5% 0 5%;
+		float: right;
+	}
+
+	.intro p {
+		display: inline-block;
+		float: left;
+		width: 40%;
+		margin: 0 0 0 7.5%;
+		padding: 0;
+		line-height: 1.25em;
+		font-size: 1.1em;
+	}
+
+	/**********
+		Content
+	**********/
+	.container {
+		background-color: #fff;
+	}
+
+	.mainContent {
+		background-color: #fff;
+	}
+
+	.mainContent img {
+		max-width: 450px;
+		width: 90%;
+		margin: auto;
+		display: block;
+	}
+
+	.mainContent h3 {
+		text-align: center;
+		padding: 0;
+	}
+
+	.mainContent p {
+		width: 65%;
+		height: 100px;
+		margin: auto;
+		padding: 0;
+	}
+
+	.marketing {
+		width: 50%;
+		float: left;
+		padding: 0 0 35px 0;
+	}
+
+	.search {
+		width: 50%;
+		float: right;
+		padding: 0 0 35px 0;
+	}
+
+	.travel {
+		width: 50%;
+		float: left;
+		padding: 0 0 35px 0;
+	}
+
+	.map {
+		width: 50%;
+		float: right;
+		padding: 0 0 35px 0;
+	}
+
+	.photo {
+		width: 50%;
+		float: left;
+		padding: 0 0 35px 0;
+	}
+
+	.calculator {
+		width: 50%;
+		float: right;
+		padding: 0 0 35px 0;
+	}
+
+
+	/**********
+		Footer
+	**********/
+	.contact {
+		clear: both;
+		width: 100%;
+	}
+
+	.footer {
+		clear: both;
+	}
+
+	.contact p {
+		display: block;
+		width: 70%;
+		margin: auto;
+		padding: 0 0 35px 0;
+	}
+
+	.contact ul {
+		display: block;
+		list-style-type: none;
+		padding: 0 0 35px 0;
+		margin: auto;
+		width: 300px;
+	}
+
+}
+
+	/**********
+		Desktop
+	**********/
+	@media (min-width: 769px) {
+		.header h1 {
+			float: left;
+			margin: 30px 0 0 50px;
+			font-size: 2rem;
+			font-weight: 600;
+		}
+
+		.header ul {
+			float: right;
+			width: 30%;
+			padding: 25px;
+		}
+
+		.intro {
+			clear: both;
+			padding-top: 50px;
+			height: 400px;
+			font-size: 1.2rem;
+		}
+
+
+	/**********
+		Content
+	**********/
+		.mainContent p {
+			font-size: 1.2rem;
+		}
+
+		.mainContent {
+			float: left;
+			width: 33.3%;
+		}
+
+		/**********
+			Footer
+		**********/
+		.contact p {
+			width: 60%;
+		}
+		.contact p, li {
+			font-size: 1.2rem;
+		}
+
+		.footer h3, a {
+			font-size: 1.2rem;
+		}
+}
